@@ -26,12 +26,12 @@ public class RedisManager {
         subscribe();
     }
     public void subscribe(){
-        subscriber = new JedisPool("168.119.212.45", 25569);
+            subscriber = new JedisPool("PRIVATE", PRIVATE);
         subscriber.setMaxWait(Duration.ZERO);
 
         plugin.getProxyServer().getScheduler().buildTask(plugin, () -> {
             try (Jedis jedis = subscriber.getResource()) {
-                jedis.auth("ai0E+EO0DOF03454T+%f:CCLCLCLLCD;DXzorOl104");
+                jedis.auth("PRIVATE");
                 jedis.subscribe(new ReceiveMessageHandler(), CHANNEL);
             }
         }).schedule();
@@ -44,7 +44,7 @@ public class RedisManager {
         data.put("response", gameType.name());
 
         try (Jedis publisher = subscriber.getResource()) {
-            publisher.auth("ai0E+EO0DOF03454T+%f:CCLCLCLLCD;DXzorOl104");
+            publisher.auth("PRIVATE");
             publisher.publish(CHANNEL, data.toString());
         }
     }
