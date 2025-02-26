@@ -1,4 +1,4 @@
-# Bridger Sumo (v3.0.1)
+# Bridger Sumo (v3.0.1) - Velocity Server
 
 Bridger Sumo is a custom-developed Minecraft minigame commissioned for a Minecraft network. This version introduces two exciting game modes: **Normal Sumo** and **Block Sumo**.
 
