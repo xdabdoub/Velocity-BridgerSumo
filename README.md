@@ -89,6 +89,7 @@ This system streamlines matchmaking in **Bridger Sumo**, ensuring a **faster and
 
 <details>
   <summary><h2>Media</h2></summary>
+
 ![No Game Found](https://media.discordapp.net/attachments/831831006351982592/1199249990162321438/image.png?ex=67c2b316&is=67c16196&hm=6d942e55709c19ab8a53b8b6d1b9f6812fe2cd784fd242dfdcebd7c0daaa69f6&=&format=webp&quality=lossless&width=616&height=52)
 
 ![Game Found](https://media.discordapp.net/attachments/831831006351982592/1199249891604574249/image.png?ex=67c2b2ff&is=67c1617f&hm=265a64f8c82cbba24a3b584c7ec99633393eac09d22213ff656c2f159dd5c640&=&format=webp&quality=lossless&width=669&height=44)
